@@ -4,30 +4,68 @@ This project use
 
 ## Project Setup 
 
-FOR FIRST INITIALIZATIO
+### Initial setup of the conda environment 
+
 Download and install Py4CAtS Wheel file
 Test 
 
 ```
 git clone git@github.com:tschad/dkist_telluric_atlas.git
-conda create -n dkist_telluric_atlas "python<3.12" pip ipympl tqdm
+conda create -n dkist_telluric_atlas python numpy scipy ipympl ipython matplotlib ipykernel
 conda activate dkist_telluric_atlas
-
-wget https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats-3.2.0-py3-none-any.whl
-pip install py4cats-3.2.0-py3-none-any.whl
-rm -rf py4cats-3.2.0-py3-none-any.whl
-
-
 ## for using jupyter lab with multiple kernels -- install kernel 
 python -m ipykernel install --user --name=dkist_telluric_atlas
+
+wget -nH https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
+
+
+## get the python wheel file for py4CaAts and install
+##wget https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats-3.2.0-py3-none-any.whl
+##pip install py4cats-3.2.0-py3-none-any.whl
+##rm -rf py4cats-3.2.0-py3-none-any.whl
+
 
 ## test 
 python -c "import py4cats"
 
 ```
 
-To get the HITRAN database parameters 
+### HiTRAN database parameters 
 
-Option 1 -- Directly from HITRAN database: 
-Go to https://hitran.org/ and login if necessary 
-Select 
+mkdir HITRAN_VIS_IR 
+cd HITRAN_VIS_IR
+
+To get the HITRAN database parameters:
+
+#### Option 1:  Previously querys on Hitran.org: 
+
+wget https://hitran.org/results/65e912c9.par
+wget https://hitran.org/results/65e912c9.bib.html
+wget https://hitran.org/results/65e912c9.bib
+wget https://hitran.org/output-format-readmes/readme-1.txt
+
+(dkist_telluric_atlas) [tschad@cn7 HITRAN_VIS_IR]$ ls -lath 
+total 221M
+drwxrwxr-x 2 tschad dkist    6 Mar  6 15:08 .
+drwxrwxr-x 3 tschad dkist    3 Mar  6 15:06 ..
+-rw-rw-r-- 1 tschad dkist 174K Mar  6 15:05 65e912c9.bib
+-rw-rw-r-- 1 tschad dkist 249K Mar  6 15:05 65e912c9.bib.html
+-rw-rw-r-- 1 tschad dkist 220M Mar  6 15:05 65e912c9.par
+-rw-rw-r-- 1 tschad dkist 3.5K Jun 14  2023 readme-1.txt
+
+#### Option 2 -- Regenerate queried data on Hitran.org 
+
+Go to https://hitran.org/ 
+Select Data Access > Line-by-Line Search 
+Select first 7 individual molecules on top (these are the 'main' molecules)
+Click "select isotopologues"
+Click "Select wavenumber / wavelength range" (accepting default isotopologues )
+Enter range of wavenumbers:  vmin = 1990; vmax = 28600 (this covers ~350 to 5000 nm)
+Click "select output options"
+login if necessary 
+Selection *.par (160 chars) output on left and click "Start Data Search"
+Download all 4 files generated and place in an accessible folder 
+
+### Run example notebook 
+
+https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
