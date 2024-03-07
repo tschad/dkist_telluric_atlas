@@ -1,3 +1,8 @@
+## folders 
+HITRAN_VIS_IR/
+py4cats/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
