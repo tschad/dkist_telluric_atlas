@@ -6,18 +6,11 @@ The goal of this project rep is to document how to create transmission absorptio
 
 ### Initial setup of the conda environment 
 
-Download and install Py4CAtS Wheel file
-Test 
+
+
+Get tarball file wi
 
 ```
-git clone git@github.com:tschad/dkist_telluric_atlas.git
-cd dkist_telluric_atlas/
-
-conda create -n dkist_telluric_atlas python "numpy<=1.21" scipy ipympl ipython matplotlib ipykernel tqdm
-conda activate dkist_telluric_atlas
-## for using jupyter lab with multiple kernels -- install kernel 
-python -m ipykernel install --user --name=dkist_telluric_atlas
-
 wget -nH https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
 tar zxvf py4cats.tgz
 
@@ -26,7 +19,6 @@ tar zxvf py4cats.tgz
 ##wget https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats-3.2.0-py3-none-any.whl
 ##pip install py4cats-3.2.0-py3-none-any.whl
 ##rm -rf py4cats-3.2.0-py3-none-any.whl
-
 
 ## test 
 python -c "import py4cats"
