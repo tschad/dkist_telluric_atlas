@@ -1,6 +1,6 @@
 ## DKIST Telluric Atlases
 
-This project use
+The goal of this project rep is to document how to create transmission absorption spectra for terrestrial atmospheres, in particular for DKIST. 
 
 ## Project Setup 
 
