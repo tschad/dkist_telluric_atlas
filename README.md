@@ -11,12 +11,15 @@ Test
 
 ```
 git clone git@github.com:tschad/dkist_telluric_atlas.git
-conda create -n dkist_telluric_atlas python numpy scipy ipympl ipython matplotlib ipykernel
+cd dkist_telluric_atlas/
+
+conda create -n dkist_telluric_atlas python "numpy<=1.21" scipy ipympl ipython matplotlib ipykernel tqdm
 conda activate dkist_telluric_atlas
 ## for using jupyter lab with multiple kernels -- install kernel 
 python -m ipykernel install --user --name=dkist_telluric_atlas
 
 wget -nH https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
+tar zxvf py4cats.tgz
 
 
 ## get the python wheel file for py4CaAts and install
@@ -53,6 +56,8 @@ drwxrwxr-x 3 tschad dkist    3 Mar  6 15:06 ..
 -rw-rw-r-- 1 tschad dkist 220M Mar  6 15:05 65e912c9.par
 -rw-rw-r-- 1 tschad dkist 3.5K Jun 14  2023 readme-1.txt
 
+cd ../
+
 #### Option 2 -- Regenerate queried data on Hitran.org 
 
 Go to https://hitran.org/ 
@@ -67,5 +72,3 @@ Selection *.par (160 chars) output on left and click "Start Data Search"
 Download all 4 files generated and place in an accessible folder 
 
 ### Run example notebook 
-
-https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
