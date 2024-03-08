@@ -87,7 +87,7 @@ The first example notebook (1_telluric_1430_nm.ipynb) shows an example of using 
 
 The main notebook that creates the files within the ./atlases/ directory is 2_create_DKIST_telluric_atlases.ipynb.  It does implement simple multiprocessing with python standard tools.  The full database of files takes ~ 17 minutes to generate on 75 processes on a 40 core (2 thread) cpu.  
 
-Here is one same image of the telluric spectra covering the full 350 to 5000 nm range. It is generated with the US Standard Reference atmosphere with a base height of 3 km.  The water content is scaled to a precipitable water vapor depth of 3 mm, which is close to the 3.4 mm of the original reference atmosphere above 3 km. These spectra are at 1 airmass.
+Below is one sample plot of the telluric spectra covering the full 350 to 5000 nm range. It is generated with the US Standard Reference atmosphere with a base height of 3 km.  The water content is scaled to a precipitable water vapor depth of 3 mm, which is close to the 3.4 mm of the original reference atmosphere above 3 km. These spectra are at 1 airmass.
 
 ![VIS IR telluric spectra](./telluric_spectra_vis_ir_3mm_1airmass.png)
 
