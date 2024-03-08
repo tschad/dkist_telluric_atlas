@@ -16,7 +16,7 @@ Here is an example of the type of spectra created here.  See the full spectral r
 
 To use this repository for yourself, you should setup a python environment with the tools you require.  This repo has been developed with an environment including multiple tools (e.g. including numpy scipy ipython matplotlib jupyter-lab, etc.)  Python >3.10 is listed as a requirement for Py4Cats.  
 
-You need to download the Py4Cats package for use.  The website for [Py4CAtS](https://atmos.eoc.dlr.de/tools/Py4CAtS/) as of 7 March 2024 shows an installation option using an avialable python wheel file, which is new as of Dec 2023 v3.2.0.  I could not get this option to work presently, and itself rely on downloading the package tarball directly into the project directory for use, i.e. 
+You need to download the Py4Cats package for use.  The website for [Py4CAtS](https://atmos.eoc.dlr.de/tools/Py4CAtS/) as of 7 March 2024 shows an installation option using an available python wheel file, which is new as of Dec 2023 v3.2.0.  I could not get this option to work presently, and itself rely on downloading the package tarball directly into the project directory for use, i.e. 
 
 ```
 wget -nH https://atmos.eoc.dlr.de/tools/Py4CAtS/py4cats.tgz
