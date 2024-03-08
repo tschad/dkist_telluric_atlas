@@ -3,9 +3,9 @@
 Looking for synthetic transmission spectra for a ground based telescope?  You're in luck! 
 Is that telescope the Daniel K Inouye Solar Telescope (DKIST)? Even better! 
 
-This repository provides high spectral resolution (R ~ 1 million) synthetic telluric spectra from 350 to 5000 nm for the US standard terrestrial atmosphere with a base height of 3 km, where DKIST is located on Haleakala in Maui.  Included are standard files for various airmasses and precipitable water vapor.  See the ./atlases/ directory for more information.  There is no need to install anything for using these files as is.  No Warranty or Guarantees Implied. 
+This repository provides high spectral resolution (R ~ 1 million) synthetic telluric spectra from 350 to 5000 nm for the US standard terrestrial atmosphere with a base height of 3 km, where DKIST is located on Haleakala on the Island of Maui.  Included are standard files for various airmasses and precipitable water vapor.  See the ./atlases/ directory for more information.  There is no need to install anything for using these files as is.  No Warranty or Guarantees Implied. 
 
-In addition, it provides the documentation necessary to create these files for yourself, as well as investigate other atmospheric parameters. This work relies on [The HITRAN Database
+In addition, this repo provides the documentation necessary to create these files for yourself, as well as investigate other atmospheric parameters. This work relies on [The HITRAN Database
 ](www.hitran.org) for the molecular line parameters.  The synthesis approach utilizes the the Python for Computational ATmospheric Spectroscopy [Py4CAtS](https://atmos.eoc.dlr.de/tools/Py4CAtS/) package.
 
 Here is an example of the type of spectra created here.  See the full spectral range in the figure below. 
