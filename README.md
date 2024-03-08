@@ -67,8 +67,9 @@ drwxrwxr-x 3 tschad dkist    3 Mar  6 15:06 ..
 
 #### Option 2 -- Regenerate queried data on Hitran.org 
 
-Go to https://hitran.org/ 
-Select Data Access > Line-by-Line Search 
+
+1. Go to https://hitran.org/ 
+2. Select Data Access > Line-by-Line Search 
 Select first 7 individual molecules on top (these are the 'main' molecules)
 Click "select isotopologues"
 Click "Select wavenumber / wavelength range" (accepting default isotopologues )
