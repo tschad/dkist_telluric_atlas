@@ -6,7 +6,7 @@ The goal of this project rep is to document how to create transmission absorptio
 
 ### Initial setup of the conda environment 
 
-
+![1430 nm telluric spectra](./telluric_spectra_1430nm.png)
 
 Get tarball file wi
 
@@ -64,3 +64,6 @@ Selection *.par (160 chars) output on left and click "Start Data Search"
 Download all 4 files generated and place in an accessible folder 
 
 ### Run example notebook 
+
+
+![VIS IR telluric spectra](./telluric_spectra_vis_ir_3mm_1airmass.png)
