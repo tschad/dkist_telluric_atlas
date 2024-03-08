@@ -1,6 +1,7 @@
 ## DKIST Telluric Atlases
 
-Looking for synthetic transmission spectra for a ground based telescope?  You're in luck! Is that telescope the Daniel K Inouye Solar Telescope (DKIST)? Even better! 
+Looking for synthetic transmission spectra for a ground based telescope?  You're in luck! 
+Is that telescope the Daniel K Inouye Solar Telescope (DKIST)? Even better! 
 
 This repository provides high spectral resolution (R ~ 1 million) synthetic telluric spectra from 350 to 5000 nm for the US standard terrestrial atmosphere with a base height of 3 km, where DKIST is located on Haleakala in Maui.  Included are standard files for various airmasses and precipitable water vapor.  See the ./atlases/ directory for more information.  There is no need to install anything for using these files as is.  No Warranty or Guarantees Implied. 
 
@@ -101,7 +102,7 @@ F. Schreier and P. Hochstaffl. Py4CAtS --- Python for Computational ATmospheric 
 See also GARLIC (Generic Atmospheric Radiation Line-by-line Infrared Code, Py4CAtS' big brother): JQSRT 137, 29-50, 2014, doi: 10.1016/j.jqsrt.2013.11.018,
 and our related projects lbl4IR
 
-## Acknowledges and Disclaimer 
+## Acknowledgements and Disclaimer 
 
 The Daniel K. Inouye Solar Telescope (DKIST) is a facility of the National Solar Observatory (NSO). NSO is managed by the Association of Universities for Research in Astronomy, Inc., and is funded by the National Science Foundation. Any opinions, findings and conclusions or recommendations expressed here are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or the Association of Universities for Research in Astronomy, Inc.  DKIST is located on land of spiritual and cultural significance to Native Hawaiian people. The use of this important site to further scientific knowledge is done so with appreciation and respect.
 
