@@ -70,14 +70,14 @@ drwxrwxr-x 3 tschad dkist    3 Mar  6 15:06 ..
 
 1. Go to https://hitran.org/ 
 2. Select Data Access > Line-by-Line Search 
-Select first 7 individual molecules on top (these are the 'main' molecules)
-Click "select isotopologues"
-Click "Select wavenumber / wavelength range" (accepting default isotopologues )
-Enter range of wavenumbers:  vmin = 1990; vmax = 28600 (this covers ~350 to 5000 nm)
-Click "select output options"
-login if necessary 
-Selection *.par (160 chars) output on left and click "Start Data Search"
-Download all 4 files generated and place in an accessible folder 
+3. Select first 7 individual molecules on top (these are the 'main' molecules)
+4. Click "select isotopologues"
+5. Click "Select wavenumber / wavelength range" (accepting default isotopologues )
+6. Enter range of wavenumbers:  vmin = 1990; vmax = 28600 (this covers ~350 to 5000 nm)
+7. Click "select output options"
+8. login if necessary 
+9. Selection *.par (160 chars) output on left and click "Start Data Search"
+10. Download all 4 files generated and place in an accessible folder 
 
 ### Run example notebook 
 
