@@ -1,6 +1,6 @@
 ## DKIST Telluric Atlases
 
-Looking for synthetic transmission spectra for a ground based telescope?  You're in luck! 
+Looking for **synthetic** transmission spectra for a ground based telescope?  You're in luck! 
 Is that telescope the Daniel K Inouye Solar Telescope (DKIST)? Even better! 
 
 This repository provides high spectral resolution (R ~ 1 million) synthetic telluric spectra from 350 to 5000 nm for the US standard terrestrial atmosphere with a base height of 3 km, where DKIST is located on Haleakala on the Island of Maui.  Included are standard files for various airmasses and precipitable water vapor.  See the ./atlases/ directory for more information.  There is no need to install anything for using these files as is.  No Warranty or Guarantees Implied. 
