@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13121149.svg)](https://doi.org/10.5281/zenodo.13922154)
+
 ## DKIST Telluric Atlases
 
 Looking for **synthetic** transmission spectra for a ground based telescope?  You're in luck! 
